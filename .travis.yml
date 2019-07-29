@@ -7,6 +7,7 @@ install:
   - cd driver
   - npm --version
   - node --version
+  - npm ci
 
 script:
   - npm run lint
