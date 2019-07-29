@@ -160,11 +160,12 @@ jobs:
       name: Long, device 4
       env: CLOUD=1 SAUCE_EMUSIM_DEVICE_INDEX=4 LONG=1 TEST=functional/long
 install:
+  - cd driver
   - npm --version
   - node --version
   - if [ "$TRAVIS_OS_NAME" = "osx" ]; then
       npm install;
-      npm install --no-save mjpeg-consumer;
+      npm install --no-save mjpeg-consumer appium-webdriveragent;
 
       pushd node_modules/appium-webdriveragent;
       carthage bootstrap --no-use-binaries;
