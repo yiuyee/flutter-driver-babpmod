@@ -15,6 +15,7 @@ export interface IDesiredCapConstraints {
   udid: any;
   retryBackoffTime: any;
   maxRetryCount: any;
+  flutterDriverAdvertise: any;
 }
 
 export const desiredCapConstraints: IDesiredCapConstraints = {
@@ -36,6 +37,7 @@ export const desiredCapConstraints: IDesiredCapConstraints = {
     inclusionCaseInsensitive: [
       `iOS`,
       `Android`,
+      `NoMatter`
     ],
     isString: true,
     presence: true,
@@ -44,6 +46,9 @@ export const desiredCapConstraints: IDesiredCapConstraints = {
     isNumber: true,
   },
   udid: {
+    isString: true,
+  },
+  flutterDriverAdvertise: {
     isString: true,
   },
 };

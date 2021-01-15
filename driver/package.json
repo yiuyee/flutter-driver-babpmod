@@ -1,16 +1,17 @@
 {
-  "name": "appium-flutter-driver",
-  "description": "Appium Flutter driver",
+  "name": "babp-flutter-driver",
+  "description": "Appium Flutter driver mod by yaoyi",
   "keywords": [
     "appium",
-    "flutter"
+    "flutter",
+    "babp"
   ],
   "version": "0.0.26-dev",
-  "author": "TruongSinh Tran-Nguyen <i@truongsinh.pro>",
+  "author": "yaoyi <yaoyi03@baidu.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/truongsinh/appium-flutter-driver.git"
+    "url": "git+https://github.com/yiuyee/appium-flutter-driver.git"
   },
   "main": "./build/driver/lib/driver.js",
   "bin": {},

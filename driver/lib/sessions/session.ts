@@ -3,6 +3,7 @@ import { log } from '../logger';
 
 import { startAndroidSession } from './android';
 import { startIOSSession } from './ios';
+import { startPureFlutterSession } from './pure_flutter'
 
 // tslint:disable-next-line:variable-name
 export const createSession = async function(this: FlutterDriver, caps, sessionId)  {
@@ -17,6 +18,8 @@ export const createSession = async function(this: FlutterDriver, caps, sessionId
           case `android`:
             [this.proxydriver, this.socket] = await startAndroidSession(caps);
             break;
+        case `NoMatter`:
+            [this.proxydriver, this.socket] = await startPureFlutterSession(caps);
           default:
             log.errorAndThrow(
               `Unsupported platformName: ${caps.platformName}`,
@@ -30,6 +33,7 @@ export const createSession = async function(this: FlutterDriver, caps, sessionId
       throw e;
     }
   };
+
 
 export const deleteSession = async function(this: FlutterDriver) {
     log.debug(`Deleting Flutter Driver session`);
