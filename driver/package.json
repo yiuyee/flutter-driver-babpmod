@@ -1,6 +1,6 @@
 {
   "name": "flutter-driver-babpmod",
-  "description": "Appium Flutter driver mod by yaoyi",
+  "description": "Appium Flutter driver mod by babp",
   "keywords": [
     "appium",
     "flutter",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yiuyee/appium-flutter-driver.git"
+    "url": "git+https://github.com/yiuyee/flutter-driver-babpmod.git"
   },
   "main": "./build/driver/lib/driver.js",
   "bin": {},
