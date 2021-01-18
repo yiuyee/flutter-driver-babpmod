@@ -1,12 +1,12 @@
 {
-  "name": "babp-flutter-driver",
+  "name": "flutter-driver-babpmod",
   "description": "Appium Flutter driver mod by yaoyi",
   "keywords": [
     "appium",
     "flutter",
     "babp"
   ],
-  "version": "0.0.26-dev",
+  "version": "1.0.0",
   "author": "yaoyi <yaoyi03@baidu.com>",
   "license": "MIT",
   "repository": {
