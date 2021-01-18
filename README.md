@@ -2,7 +2,8 @@
 - 用于平台无关的Flutter驱动 https://github.com/yiuyee/appium-flutter-driver
 - npm: https://www.npmjs.com/package/flutter-driver-babpmod
 
-原项目 https://github.com/truongsinh/appium-flutter-driver 作者：@inspectorioinc 
+原项目 https://github.com/truongsinh/appium-flutter-driver 作者：@truongsinh
+
 ## 以下为原README
 [![Build Status](https://api.travis-ci.org/truongsinh/appium-flutter-driver.png?branch=master)](https://travis-ci.org/truongsinh/appium-flutter-driver)
 [![Greenkeeper badge](https://badges.greenkeeper.io/truongsinh/appium-flutter-driver.svg)](https://greenkeeper.io/)
